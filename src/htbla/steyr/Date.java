@@ -11,6 +11,7 @@ package htbla.steyr;
  * File:   Date.java
  * @detalis: Date-Klasse
  */
+
 public class Date {
     protected int day;
     protected int mon;

@@ -1,13 +1,24 @@
 package htbla.steyr;
-
+/*----------------------------------------------------------------------
+ *            Hoehere Technische Bundeslehranstalt STEYR
+ *---------------------------------------------------------------------*/
+/**
+ * Kurzbeschreibung
+ *
+ * @author  : Christian Chimani
+ *            Schueler, 3AHITN
+ * @date    : 3.März 2022
+ * File:   IllegalPhoneNumberException.java
+ * @detalis: IllegalPhoneNumberException-Klasse
+ */
 public class IllegalPhoneNumberException {
-    public static final Integer type = null;
-    public static final Integer COUNTRY_ILLEGAL = null;
-    public static final Integer AREA_ILLEGAL = null;
-    public static final Integer NUMBER_ILLEGAL = null;
-    public static final Integer STRING_FORMAT_ILLEGAL = null;
+    public int type;
+    public static final int COUNTRY_ILLEGAL = 0;
+    public static final int AREA_ILLEGAL = 1;
+    public static final int NUMBER_ILLEGAL = 2;
+    public static final int STRING_FORMAT_ILLEGAL = 3;
     
-    public Integer ILLEGALPhoneException(){
-        return 0;
+    public IllegalPhoneNumberException(int t){
+        type = t;
     }
 }
