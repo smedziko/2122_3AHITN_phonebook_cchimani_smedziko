@@ -2,6 +2,10 @@ package htbla.steyr;
 /*----------------------------------------------------------------------
  *            Hoehere Technische Bundeslehranstalt STEYR
  *---------------------------------------------------------------------*/
+
+import java.io.Reader;
+import java.io.Writer;
+
 /**
  * Kurzbeschreibung
  *
@@ -12,10 +16,10 @@ package htbla.steyr;
  * @detalis: StreamOperation-Klasse
  */
 public class StreamOperation {
-    public ToStream(){
+    public void ToStream(Person p, Writer w){
 
     }
-    public fromStream(){
-
+    public Person fromStream(Reader r){
+     return null;
     }
 }
