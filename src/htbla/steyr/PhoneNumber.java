@@ -1,9 +1,20 @@
 package htbla.steyr;
-
+/*----------------------------------------------------------------------
+ *            Hoehere Technische Bundeslehranstalt STEYR
+ *---------------------------------------------------------------------*/
+/**
+ * Kurzbeschreibung
+ *
+ * @author  : Christian Chimani
+ *            Schueler, 3AHITN
+ * @date    : 3.März 2022
+ * File:   PhoneNumber.java
+ * @detalis: PhoneNumber-Klasse
+ */
 public class PhoneNumber {
-    protected Integer country;
-    protected Integer area;
-    protected Integer number;
+    protected int country;
+    protected int area;
+    protected int number;
 
     PhoneNumber(int c, int a, int n){
 
@@ -22,16 +33,16 @@ public class PhoneNumber {
     }
 
 
-    public Integer getNumber(){
+    public int getNumber(){
         return 0;
     }
 
 
-    public Integer getCountryCode() {
+    public int getCountryCode() {
         return country;
     }
 
-    public Integer getAreaCode() {
+    public int getAreaCode() {
         return area;
     }
     public boolean isValid(PhoneNumber d){
