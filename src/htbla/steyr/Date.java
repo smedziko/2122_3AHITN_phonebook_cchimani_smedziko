@@ -23,7 +23,7 @@ public class Date {
         return false;
     }
 
-    public Date (int mon, int day, int year){
+    public Date (int m, int d, int y){
 
     }
 
