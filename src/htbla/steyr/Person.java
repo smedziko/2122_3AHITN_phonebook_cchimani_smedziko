@@ -18,5 +18,5 @@ public class Person {
     protected Date birthday;
     protected PhoneNumber phone;
 
-    public Person(String n, String gn, String bd, String p)
+    //public Person(String n, String gn, String bd, String p);
 }
