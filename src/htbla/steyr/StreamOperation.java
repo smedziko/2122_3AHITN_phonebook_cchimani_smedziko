@@ -1,11 +1,9 @@
 package htbla.steyr;
+import java.io.Reader;
+import java.io.Writer;
 /*----------------------------------------------------------------------
  *            Hoehere Technische Bundeslehranstalt STEYR
  *---------------------------------------------------------------------*/
-
-import java.io.Reader;
-import java.io.Writer;
-
 /**
  * Kurzbeschreibung
  *
