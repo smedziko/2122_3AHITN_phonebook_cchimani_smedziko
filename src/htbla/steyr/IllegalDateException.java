@@ -13,8 +13,8 @@ package htbla.steyr;
  */
 public class IllegalDateException {
     protected int type;
-    public int DAY_ILLEGAL;
-    public int MON_ILLEGAL;
+    public static final int DAY_ILLEGAL = 0;
+    public static final int MON_ILLEGAL = 0;
 
     public IllegalDateException(int i){
 
