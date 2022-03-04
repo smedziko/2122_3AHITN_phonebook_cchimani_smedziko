@@ -23,7 +23,7 @@ public class Person {
     protected PhoneNumber phone;
 
     /**
-     * public Person für name, givenname, birthday und phone
+     * public Person - Konstruktor für name, givenname, birthday und phone
      */
     public Person(String n, String gn, String bd, String p){
 
