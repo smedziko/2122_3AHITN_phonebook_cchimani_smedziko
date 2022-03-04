@@ -5,7 +5,7 @@ package htbla.steyr;
 /**
  * Kurzbeschreibung
  *
- * @author  : Semir Medzikovic
+ * @author  : Christian Chimani
  *            Schueler, 3AHITN
  * @date    : 3.März 2022
  * File:   Person.java
