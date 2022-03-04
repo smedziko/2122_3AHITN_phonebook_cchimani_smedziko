@@ -2,6 +2,10 @@ package htbla.steyr;
 /*----------------------------------------------------------------------
  *            Hoehere Technische Bundeslehranstalt STEYR
  *---------------------------------------------------------------------*/
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Kurzbeschreibung
  *
@@ -34,7 +38,7 @@ public class PhoneNumber {
 
 
     public int getNumber(){
-        return 0;
+        return number;
     }
 
 
@@ -46,6 +50,14 @@ public class PhoneNumber {
         return area;
     }
     public boolean isValid(PhoneNumber d){
-        return true;
+        boolean r = false;
+
+        Pattern pattern = Pattern.compile("\\d{3}-\\d{7}");
+        Matcher matcher = pattern.matcher((CharSequence) d);
+        if (matcher.matches()) {
+            System.out.println("Phone Number Valid");
+            r=true;
+        }
+        return r;
     }
 }

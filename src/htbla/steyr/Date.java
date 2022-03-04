@@ -17,6 +17,14 @@ public class Date {
     protected int mon;
     protected int year;
 
+    public Date(String s) {
+       String [] a = s.split("\\.");
+       day= Integer.parseInt(a[0]);
+       day= Integer.parseInt(a[1]);
+       day= Integer.parseInt(a[2]);
+    }
+
+
     public boolean isLeapYear(){
         return false;
     }
@@ -24,9 +32,7 @@ public class Date {
         return false;
     }
 
-    public Date (int m, int d, int y){
 
-    }
 
     public int getDay() {
         return day;
