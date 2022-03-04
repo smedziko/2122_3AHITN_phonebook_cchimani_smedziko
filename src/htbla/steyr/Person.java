@@ -29,7 +29,9 @@ public class Person {
 
     }
 
-    @Override
+    /**
+     * wandelt alles in einen String um
+     */
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
