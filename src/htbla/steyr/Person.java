@@ -11,6 +11,10 @@ package htbla.steyr;
  * File:   Person.java
  * @detalis: Person-Klasse
  */
+
+/**
+ * Person - Klasse, welche die Daten der Personen beinhaltet
+ */
 public class Person {
     protected String name;
     protected String givenname;
@@ -18,6 +22,9 @@ public class Person {
     protected Date birthday;
     protected PhoneNumber phone;
 
+    /**
+     * public Person für name, givenname, birthday und phone
+     */
     public Person(String n, String gn, String bd, String p){
 
     }
