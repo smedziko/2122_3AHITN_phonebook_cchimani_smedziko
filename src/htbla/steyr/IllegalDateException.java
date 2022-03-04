@@ -11,6 +11,11 @@ package htbla.steyr;
  * File:   IllegalDateException.java
  * @detalis: IllegalDateException-Klasse
  */
+
+/**
+ * IllegalDateException - Klasse, welche ein falsches Datum aussortiert <br>
+ * beinhaltet: type, DAY_ILLEGAL, MON_ILLEGAL
+ */
 public class IllegalDateException {
     protected int type;
     public static final int DAY_ILLEGAL = 0;
