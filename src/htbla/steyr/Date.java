@@ -41,19 +41,22 @@ public class Date {
     }
 
     /**
-     * Getter für den Tag
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für den Tag, der Tag wird abgefragt
      */
     public int getDay() {
         return day;
     }
     /**
-     * Getter für den Monat
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für den Monat, der Monat wird abgefragt
      */
     public int getMon() {
         return mon;
     }
     /**
-     * Getter für das Jahr
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für das Jahr, das Jahr wird abgefragt
      */
     public int getYear() {
         return year;

@@ -45,19 +45,22 @@ public class PhoneNumber {
                 '}';
     }
     /**
-     * Getter für Number
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für Number, die Number wird abgefragt
      */
     public int getNumber(){
         return 0;
     }
     /**
-     * Getter für CountryCode
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für CountryCode, der Countrycode wird abgefragt
      */
     public int getCountryCode() {
         return country;
     }
     /**
-     * Getter für AreaCode
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für AreaCode, der AreaCode wird abgefragt
      */
     public int getAreaCode() {
         return area;
