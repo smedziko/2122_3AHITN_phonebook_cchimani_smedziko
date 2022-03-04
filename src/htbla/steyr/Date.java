@@ -12,6 +12,9 @@ package htbla.steyr;
  * @detalis: Date-Klasse
  */
 
+/**
+ * Date - Klasse, welche Tag, Monat und Jahr beinhaltet <br>
+ */
 public class Date {
     protected int day;
     protected int mon;
@@ -28,6 +31,10 @@ public class Date {
     public boolean isLeapYear(){
         return false;
     }
+
+    /**
+     * isValid: prüft, ob das Datum gültig ist <br>
+     */
     public boolean isValid(Date d){
         return false;
     }

@@ -11,6 +11,11 @@ package htbla.steyr;
  * File:   IllegalPhoneNumberException.java
  * @detalis: IllegalPhoneNumberException-Klasse
  */
+
+/**
+ * IllegalPhoneNumberException - Klasse, welche die falschen Werte aussortiert <br>
+ * beinhaltet: type, COUNTRY_ILLEGAL, AREA_ILLEGAL, NUMBER_ILLEGAL und STRING_FORMAT_ILLEGAL <br>
+ */
 public class IllegalPhoneNumberException {
     public int type;
     public static final int COUNTRY_ILLEGAL = 0;

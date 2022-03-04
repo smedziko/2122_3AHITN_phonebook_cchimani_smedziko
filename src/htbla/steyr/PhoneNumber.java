@@ -15,19 +15,32 @@ import java.util.regex.Pattern;
  * File:   PhoneNumber.java
  * @detalis: PhoneNumber-Klasse
  */
+
+/**
+ * PhoneNumber - Klasse, welche das Land, das Gebiet und die Nummer beinhaltet <br>
+ */
 public class PhoneNumber {
     protected int country;
     protected int area;
     protected int number;
 
+    /**
+     * Konstruktor für country, area und number
+     */
     PhoneNumber(int c, int a, int n){
 
     }
+
+    /**
+     * Konstruktor für number
+     */
     PhoneNumber(String number){
 
     }
 
-    @Override
+    /**
+     * wandelt alles in einen String um
+     */
     public String toString() {
         return "PhoneNumber{" +
                 "country=" + country +
@@ -35,20 +48,31 @@ public class PhoneNumber {
                 ", number=" + number +
                 '}';
     }
-
-
+    /**
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für Number, die Number wird abgefragt
+     */
     public int getNumber(){
         return number;
     }
-
-
+    /**
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für CountryCode, der Countrycode wird abgefragt
+     */
     public int getCountryCode() {
         return country;
     }
-
+    /**
+     * get: einzelne Eigenschaft eines Objekts wird abgefragt oder geändert (setter) <br>
+     * Getter für AreaCode, der AreaCode wird abgefragt
+     */
     public int getAreaCode() {
         return area;
     }
+
+    /**
+     * prüft, ob PhoneNumber gültig ist
+     */
     public boolean isValid(PhoneNumber d){
         boolean r = false;
 
