@@ -7,7 +7,7 @@ import java.io.Writer;
 /**
  * Kurzbeschreibung
  *
- * @author  : Semir Medzikovic
+ * @author  : Christian Chimani
  *            Schueler, 3AHITN
  * @date    : 3.März 2022
  * File:   StreamOperation.java
