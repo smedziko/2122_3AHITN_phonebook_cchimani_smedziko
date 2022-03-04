@@ -13,7 +13,7 @@ package htbla.steyr;
  */
 
 /**
- * Date - Klasse, welche Tag, Monat und Jahr definiert <br>
+ * Date - Klasse, welche Tag, Monat und Jahr beinhaltet <br>
  */
 public class Date {
     protected int day;
